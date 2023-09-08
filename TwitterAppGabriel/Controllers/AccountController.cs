@@ -65,8 +65,8 @@ namespace TwitterAppGabriel.Controllers;
                 model.Email, model.Password, model.RememberMe, false);
                     if (result.Succeeded)
                     {
-                        return RedirectToAction("Index", "Home");
-                    }
+                        return RedirectToAction("Index", "Users"); //redirect to the Feed page after login
+			}
                 ModelState.AddModelError(string.Empty, "Invalid Login");
             }
 
