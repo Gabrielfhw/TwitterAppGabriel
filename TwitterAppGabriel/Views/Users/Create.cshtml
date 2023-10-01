@@ -4,9 +4,15 @@
     ViewData["Title"] = "Create";
 }
 
-<h1>Create</h1>
+<style>
+    body {
+    background-color: #00acee;
+    }
+</style>
 
-<h4>User</h4>
+<h1>Create a new tweet</h1>
+
+<h4>tweet</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
@@ -47,6 +53,8 @@
 <div>
     <a asp-action="Index">Back to List</a>
 </div>
+
+<img src="~/images/twitter.png" class="mx-auto d-block" style="width:10%" />
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}

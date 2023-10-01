@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="angularjs" Version="1.8.2" />
     <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.2.0" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="7.0.10" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.10">
@@ -20,6 +21,14 @@
     </PackageReference>
     <PackageReference Include="Microsoft.Extensions.Identity.Core" Version="7.0.10" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="7.0.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="image\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\images\twitter.PNG" />
   </ItemGroup>
 
 </Project>

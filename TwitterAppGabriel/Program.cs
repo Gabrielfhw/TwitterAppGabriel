@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.FileProviders;
 using TwitterAppGabriel.Context;
 
 var builder = WebApplication.CreateBuilder(args);
